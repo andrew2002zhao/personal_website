@@ -17,6 +17,6 @@ RUN n stable
 # install three.js
 RUN npm install three
 # install bullet.js
-RUN npm install bullet
+RUN npm install physijs
 # install rclnode.js
 RUN source /opt/ros/humble/setup.bash && npm install rclnodejs
